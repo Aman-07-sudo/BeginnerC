@@ -8,3 +8,4 @@ gcc rvr.c -o rvr
 Change rvr according to your wish.
 
 **Dont use more than 99 words in the input.
+**Dont use spaces in between input
