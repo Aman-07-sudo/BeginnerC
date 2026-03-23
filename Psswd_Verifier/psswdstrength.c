@@ -17,12 +17,13 @@ int main () {
 
 	char str1[100];
 	while (1) {
+
 //asking user to enter password and checking the length.		
-                printf("enter your character: ");
-	        scanf("%s", str1);
-	        if (gtl(str1) < 10) {
-			valid = 0;
-		        printf("psswd too weak \n");
+        printf("enter your character: ");
+	    scanf("%s", str1);
+	    if (gtl(str1) < 10) {
+		valid = 0;
+		printf("psswd too weak \n");
 		}
 //making sure the password contains numbers.
 		else {
@@ -69,14 +70,16 @@ int main () {
 		}
 //if all the criteria are met, the password is accepted and the loop is broken.
 
-         	if (valid == 1 && va == 1 && vali == 1 && val == 1) {
-	        	printf("password accepted\n");
-		        break;
+        if (valid == 1 && va == 1 && vali == 1 && val == 1) {
+	        printf("password accepted\n");
+		    break;
 		
-		
+		}
 	}
 
 	return 0;                                      
 
+	
 }
+
                                                           	
